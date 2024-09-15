@@ -15,3 +15,14 @@
 // 3 x 8 = 24
 // 3 x 9 = 27
 // 3 x 10 = 30
+
+let length = 10;
+
+let num;
+while (!Number.isInteger(num)) {
+  num = Number.parseInt(prompt("Type a number"));
+}
+
+for (let i= 0; i <= length; i++) {
+  console.log(`${num} * ${i} = ${num*i}`);
+}
