@@ -12,3 +12,21 @@
 // One second later: 7h0m0s
 // Time input: 23h59m59s
 // One second later: 0h0m0s
+
+let hour;
+while (!Number.isInteger(hour)) {
+  hour = Number.parseInt(prompt("Type the hour"));
+}
+
+let minute;
+while (!Number.isInteger(minute)) {
+  minute = Number.parseInt(prompt("Type the minute"));
+}
+
+let second;
+while (!Number.isInteger(second)) {
+  second = Number.parseInt(prompt("Type the second"));
+}
+
+
+
